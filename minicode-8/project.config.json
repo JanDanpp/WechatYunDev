@@ -1,0 +1,71 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.4",
+	"appid": "touristappid",
+	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%8B%93%E5%B1%95%E7%BB%84%E4%BB%B6%E5%BA%93",
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "example/video-swiper/video-swiper",
+					"pathName": "example/video-swiper/video-swiper",
+					"query": ""
+				},
+				{
+					"id": -2,
+					"name": "example/emoji/emoji",
+					"pathName": "example/emoji/emoji",
+					"query": ""
+				},
+				{
+					"id": -3,
+					"name": "example/index-list/index-list",
+					"pathName": "example/index-list/index-list",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "example/sticky/sticky",
+					"pathName": "example/sticky/sticky",
+					"scene": null
+				}
+			]
+		}
+	}
+}

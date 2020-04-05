@@ -1,0 +1,15 @@
+<!-- 组件 custom-component.wxml -->
+<custom-component>
+  <view>{{myProperty}}</view>
+  <button bindtap='onMyButtonTap'>Button</button>
+  <view>{{A[0].B}}</view>
+  <button bindtap='_myPrivateMethod'>_myPrivateMethod</button>
+  <view class="weui-cell weui-cell_active">
+						<view class="weui-cell__hd">
+							<view class="weui-label">任务标题</view>
+						</view>
+						<view class="weui-cell__bd">
+							<input class="weui-input" bindblur="assignmentTitle" placeholder="请输入标题" />
+						</view>
+					</view>
+</custom-component>
